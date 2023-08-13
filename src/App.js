@@ -10,11 +10,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={skylogo} alt="Sky Cotl logo" width={'250rem'} />
+        <div className="float-area">
+          <img
+            src={skymoth}
+            alt="Sky Moth"
+            width={'50rem'}
+            className="floating-moth"
+          />
+          <h1>Skykid Help Guide</h1>
+        </div>
 
-        <h1>
-          <img src={skymoth} alt="Sky Moth" width={'50rem'} of />
-          Skykid Help Guide
-        </h1>
         <h3>Coming Soon!</h3>
       </header>
       <footer>
